@@ -1,3 +1,6 @@
+
+
+
 #body{
     display: flex;
     flex-direction: column;
@@ -9,6 +12,9 @@ background-color: rgba(171, 160, 160, 0.208);
     flex-direction: column;
     justify-content: center;
     align-items: center ;
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
   
 }
 #nav {
@@ -142,5 +148,59 @@ border: none;
     gap: 10px;
 }
 .Yunus{
-    background-image: url(/assets/quote-bg.png
+ background-image: url('/assets/quote-bg.png');
+ margin: 50px;
+ background-repeat: no-repeat;
+ display: flex;
+ flex-direction: column;
+ background-color: white;
+ border-radius: 16px;
+ width: 1400px;
+ padding: 20px;
 }
+
+.e3{
+    display: flex;
+    justify-content: space-between;
+    background-color: #C6E4D6 ;
+    width: 1216px;
+    height: 72px;
+    padding: 24px;
+    align-items: center;
+}
+.f3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.299);
+
+   
+}
+.bn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C6E4D6;
+    border-radius: 4px;
+
+    
+}
+.q{
+  width: 22px;
+}
+.bna{
+    border: 1px solid rgba(109, 104, 104, 0.174); 
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 52px;
+      
+}
+ .as{
+    height: fit-content;
+    width: fit-content;
+    padding: 50px;
+    background-color: white;
+ }
