@@ -1,22 +1,23 @@
-
-
-
-#body{
+#body {
     display: flex;
     flex-direction: column;
-margin: 50px;
-background-color: rgba(171, 160, 160, 0.208);
+    margin: 50px;
+    background-color: rgba(171, 160, 160, 0.208);
+    font-family: "Fira Sans";
+
+    color: black;
 }
-#main{
+
+#main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center ;
-    font-family: "Fira Sans", serif;
-    font-weight: 100;
-    font-style: normal;
-  
+    align-items: center;
+
+    color: black;
+
 }
+
 #nav {
     display: flex;
     justify-content: space-between;
@@ -28,179 +29,211 @@ background-color: rgba(171, 160, 160, 0.208);
     border: 1px solid rgba(0, 106, 80, 1);
     border-radius: 8px;
     padding: 15px 30px;
-    background-color: white ;
+    background-color: white;
     font-size: 18px;
     font-weight: bold;
 
 }
-.a1{
+
+.a1 {
     font-size: 32px;
     font-weight: bold;
-    
+
 }
 
 /* banner */
-.b1{
+.b1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgba(198, 228, 214, 1);
     padding: 80px 100px;
-    border-radius:24px ;
+    border-radius: 24px;
     height: auto;
-    width:1280px ;
+    width: 1280px;
     margin: 50px;
-    
+
 }
-.img{
+
+.img {
     height: 400px;
     width: 475px;
 }
-.b2{
+
+.b2 {
     font-size: 24px;
-    font-weight: normal
-    ;
+    font-weight: normal;
 }
-.b3{
+
+.b3 {
     font-size: 56px;
     font-weight: bold
 }
-.bbtn{
+
+.bbtn {
     color: white;
-    background:rgba(0, 106, 80, 1)  ;
-    padding: 17px 34px ;
+    background: rgba(0, 106, 80, 1);
+    padding: 17px 34px;
     border-radius: 8px;
     border: none;
     font-size: 18px;
     font-weight: bold;
 }
+
 /* Pillars of "Bangladesh 2.0" */
-.c1{
+.c1 {
     font-size: 40px;
     font-weight: bold;
-    
-}
-.c2{
-height: 244px;
-width: 303px;
-padding: 24px;
-background-color: white;
-border-radius: 16px;
 
 }
-.c{
+
+.c2 {
+    height: 244px;
+    width: 303px;
+    padding: 24px;
+    background-color: white;
+    border-radius: 16px;
+
+}
+
+.c {
     display: flex;
     justify-content: space-around;
     gap: 10px;
 }
+
 /* 222 */
-.d1{
-   padding: 32px;
+.d1 {
+    padding: 32px;
     height: 325px;
     width: 411px;
     background: rgba(84, 144, 245, 0.2);
     border-radius: 16px;
 }
-.d2{
-   padding: 32px;
+
+.d2 {
+    padding: 32px;
     height: 325px;
     width: 411px;
     background: rgba(198, 228, 214, 1);
     border-radius: 16px;
 }
-.d3{
-   padding: 32px;
+
+.d3 {
+    padding: 32px;
     height: 325px;
     width: 411px;
     background: rgba(247, 247, 207, 1);
     border-radius: 16px;
 }
-.dbtn{
+
+.dbtn {
     background: rgba(84, 144, 245, 1);
-    border-radius: 8px ;
+    border-radius: 8px;
     color: white;
     font-weight: bold;
     font-size: 18px;
     padding: 11px 20px;
-border: none;
+    border: none;
 }
-.dbtn1{
+
+.dbtn1 {
     background: rgba(9, 161, 92, 1);
-    border-radius: 8px ;
+    border-radius: 8px;
     color: white;
     font-weight: bold;
     font-size: 18px;
     padding: 11px 20px;
-border: none;
+    border: none;
 }
-.dbtn2{
+
+.dbtn2 {
     background: rgba(255, 194, 57, 1);
-    border-radius: 8px ;
+    border-radius: 8px;
     color: white;
     font-weight: bold;
     font-size: 18px;
     padding: 11px 20px;
-border: none;
+    border: none;
 }
-.d{
+
+.d {
     display: flex;
     justify-content: space-between;
     gap: 10px;
 }
-.Yunus{
- background-image: url('/assets/quote-bg.png');
- margin: 50px;
- background-repeat: no-repeat;
- display: flex;
- flex-direction: column;
- background-color: white;
- border-radius: 16px;
- width: 1400px;
- padding: 20px;
+
+.Yunus {
+    background-image: url('/assets/quote-bg.png');
+    margin: 50px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 16px;
+    width: 1400px;
+    padding: 20px;
+    color: black;
 }
 
-.e3{
+.e3 {
     display: flex;
     justify-content: space-between;
-    background-color: #C6E4D6 ;
+    background-color: #C6E4D6;
     width: 1216px;
     height: 72px;
     padding: 24px;
     align-items: center;
 }
-.f3{
+
+.f3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 20px;
     border: 1px solid rgba(0, 0, 0, 0.299);
 
-   
+
 }
-.bn{
+
+.bn {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #C6E4D6;
     border-radius: 4px;
 
-    
+
 }
-.q{
-  width: 22px;
+
+.q {
+    width: 22px;
 }
-.bna{
-    border: 1px solid rgba(109, 104, 104, 0.174); 
+
+.bna {
+    border: 1px solid rgba(109, 104, 104, 0.174);
     width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 52px;
-      
+
 }
- .as{
+
+.as {
     height: fit-content;
     width: fit-content;
     padding: 50px;
     background-color: white;
- }
+}
+
+
+/* .btn-read{
+    width: 139px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+} */
